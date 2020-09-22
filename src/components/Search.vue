@@ -1,6 +1,6 @@
 <template>
   <div id="searchbar">
-    MOVIE MAGIC SEARCH BAR
+    <input type="text" placeholder="enter a movie title" />
   </div>
 </template>
 

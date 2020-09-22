@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <!-- component vv -->
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <navbar />
+    <searchbar />
+    <moviescontainier />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import navbar from './Nav.vue';
+import searchbar from './Search.vue';
+import moviescontainier from './MoviesContainer.vue';
 
 export default {
-  name: 'App',
+  name: 'MainSiteContaiiner',
   components: {
-    HelloWorld
+    navbar, searchbar, moviescontainier
   }
 }
 </script>

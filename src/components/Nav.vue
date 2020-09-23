@@ -27,7 +27,6 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     padding: 30px;
-    width: 100%;
     background-color: aliceblue;
   }
 .logo {
